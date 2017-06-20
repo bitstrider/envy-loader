@@ -1,6 +1,6 @@
 {
   "name": "envy-loader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "dotenv style environment variable file loader module for webpack",
   "main": "index.js",
   "scripts": {
