@@ -6,7 +6,9 @@ tap.test("load basic.env", function (t) {
 
     const content = fs.readFileSync('test/fixtures/basic.env').toString();
 
-    const env = envyLoader(content)
+    const module = envyLoader(content)
+    const env = eval(module)
+
     t.type(env,'object')
     t.equal(env.FOO,'hello')
     t.equal(env.BAR_BAZ,'world')

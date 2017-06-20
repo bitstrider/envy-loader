@@ -1,6 +1,9 @@
-var dotenv = require('dotenv')
+const dotenv = require('dotenv')
 
 module.exports = function(content) {
-    var buf = new Buffer(content);
-    return dotenv.parse(buf);
+    const buf = new Buffer(content);
+    const env = dotenv.parse(buf);
+    const value = JSON.stringify(env);
+    const module = `module.exports = ${value};`;
+    return module;
 };
