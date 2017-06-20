@@ -1,0 +1,27 @@
+{
+  "name": "envy-loader",
+  "version": "0.1.0",
+  "description": "dotenv style environment variable file loader module for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitstrider/envy-loader.git"
+  },
+  "keywords": [
+    "dotenv",
+    "webpack",
+    "loader",
+    "env",
+    "var",
+    "environment",
+    "variable"
+  ],
+  "author": "Jason Yung",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^10.4.0"
+  }
+}
