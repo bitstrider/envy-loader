@@ -23,5 +23,8 @@
   "license": "ISC",
   "devDependencies": {
     "tap": "^10.4.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0"
   }
 }

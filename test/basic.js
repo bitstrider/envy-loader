@@ -11,7 +11,7 @@ tap.test("load basic.env", function (t) {
     t.equal(env.FOO,'hello')
     t.equal(env.BAR_BAZ,'world')
     t.equal(env.RAZ,'0')
-    t.equal(env['TAZ '],' 1')
+    t.equal(env['TAZ'],'1')
 
     t.end();
 
